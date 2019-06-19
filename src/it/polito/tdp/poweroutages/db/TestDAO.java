@@ -7,6 +7,7 @@ public class TestDAO {
 		PowerOutagesDAO dao = new PowerOutagesDAO();
 
 		System.out.println(dao.loadAllNercs());
+		//System.out.print(dao.loadAllArchi(n1, mappaNerc));
 	}
 
 }
